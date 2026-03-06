@@ -155,29 +155,34 @@ const MobileBottomBar = () => {
           return (
             <React.Fragment key={idx}>
               <div className='flex items-center gap-1.5'>
-                {link.type === 'fontawesome' ? (
-                  <FontAwesomeIcon
-                    icon={link.icon as IconDefinition}
-                    size='sm'
-                    className={clsx(
-                      baseIconClasses,
-                      pulseClasses,
-                      isPatreon && 'text-blue-500',
-                    )}
-                    onClick={() => handleClick(link.url)}
-                  />
-                ) : (
-                  <Icon
-                    size={16}
-                    className={clsx(
-                      baseIconClasses,
-                      pulseClasses,
-                      isDonate &&
-                        'fill-current text-red-500 motion-safe:animate-pulse',
-                    )}
-                    onClick={() => handleClick(link.url)}
-                  />
-                )}
+                <button
+                  type='button'
+                  onClick={() => handleClick(link.url)}
+                  className='flex items-center'
+                  aria-label={`Open ${link.special === 'donate' ? 'Ko-fi' : link.url}`}
+                >
+                  {link.type === 'fontawesome' ? (
+                    <FontAwesomeIcon
+                      icon={link.icon as IconDefinition}
+                      size='sm'
+                      className={clsx(
+                        baseIconClasses,
+                        pulseClasses,
+                        isPatreon && 'text-blue-500',
+                      )}
+                    />
+                  ) : (
+                    <Icon
+                      size={16}
+                      className={clsx(
+                        baseIconClasses,
+                        pulseClasses,
+                        isDonate &&
+                          'fill-current text-red-500 motion-safe:animate-pulse',
+                      )}
+                    />
+                  )}
+                </button>
                 {ENABLE_STATS_DESIGN &&
                   link.icon === faGithub &&
                   githubStars !== null && (
