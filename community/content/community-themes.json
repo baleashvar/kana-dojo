@@ -378,9 +378,9 @@
     "secondaryColor": "oklch(70.0% 0.085 120.0 / 1)"
   },
   {
-    "id": "wasabi-punch",
-    "backgroundColor": "oklch(20.0% 0.048 160.0 / 1)",
-    "mainColor": "oklch(72.0% 0.185 145.0 / 1)",
-    "secondaryColor": "oklch(82.0% 0.145 130.0 / 1)"
+    "id": "ryokan-evening",
+    "backgroundColor": "oklch(23.0% 0.038 280.0 / 1)",
+    "mainColor": "oklch(78.0% 0.130 55.0 / 1)",
+    "secondaryColor": "oklch(68.0% 0.095 30.0 / 1)"
   }
 ]

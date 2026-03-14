@@ -679,7 +679,7 @@
     "note": "Transition/goodbye phrase. (Set 4)",
     "id": 68,
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "dialect": "〜ばい",
@@ -688,7 +688,7 @@
     "region": "Fukuoka",
     "note": "Assertive friendly ending. (Set 4)",
     "id": 69,
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
