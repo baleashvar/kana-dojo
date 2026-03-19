@@ -213,7 +213,7 @@
     "note": "感謝を示す慣習。",
     "id": 24,
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "situation": "食事後 2",
@@ -221,7 +221,7 @@
     "dont": "食べ終わってすぐ席を立つ",
     "note": "店でも家庭でも使える。",
     "id": 25,
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {

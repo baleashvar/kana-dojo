@@ -697,7 +697,7 @@
     "note": "Reason marker in Kyushu. (Set 4)",
     "id": 70,
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "dialect": "よか",
@@ -707,7 +707,7 @@
     "note": "Common Kyushu replacement. (Set 4)",
     "id": 71,
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "dialect": "でら",
@@ -717,7 +717,7 @@
     "note": "Characteristic Nagoya intensifier. (Set 4)",
     "id": 72,
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "dialect": "〜だがや",
@@ -727,7 +727,7 @@
     "note": "Strong Nagoya marker. (Set 4)",
     "id": 73,
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "dialect": "ぶち",
@@ -747,7 +747,7 @@
     "note": "Common causal ending. (Set 4)",
     "id": 75,
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "dialect": "いけん",
@@ -1097,7 +1097,7 @@
     "note": "Reason marker in Kyushu. (Set 6)",
     "id": 110,
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "dialect": "よか",
@@ -1107,7 +1107,7 @@
     "note": "Common Kyushu replacement. (Set 6)",
     "id": 111,
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "dialect": "でら",
@@ -1117,7 +1117,7 @@
     "note": "Characteristic Nagoya intensifier. (Set 6)",
     "id": 112,
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "dialect": "〜だがや",
@@ -1127,7 +1127,7 @@
     "note": "Strong Nagoya marker. (Set 6)",
     "id": 113,
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "dialect": "ぶち",
@@ -1137,7 +1137,7 @@
     "note": "Regional intensifier. (Set 6)",
     "id": 114,
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "dialect": "〜じゃけぇ",
@@ -1157,7 +1157,7 @@
     "note": "Prohibitive nuance. (Set 6)",
     "id": 116,
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "dialect": "なんくるないさ",
@@ -1167,7 +1167,7 @@
     "note": "Famous Okinawan resilience phrase. (Set 6)",
     "id": 117,
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "dialect": "にふぇーでーびる",
@@ -1177,7 +1177,7 @@
     "note": "Okinawan gratitude expression. (Set 6)",
     "id": 118,
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "dialect": "〜やねん",
