@@ -70,20 +70,33 @@ export default function DonationModal({
                 colorScheme='main'
                 borderColorScheme='main'
                 borderRadius='2xl'
-                borderBottomThickness={6}
+                borderBottomThickness={14}
                 href='https://ko-fi.com/kanadojo'
                 target='_blank'
                 rel='noreferrer noopener'
                 onClick={playClick}
-                className='px-5 py-4 text-lg font-semibold'
+                className='px-5 py-4 text-lg font-semibold sm:w-auto'
               >
-                <Heart className='size-5 fill-current' />
-                Donate
+                <Heart className='size-5 fill-current animate-[jump_1s_ease-in-out_infinite]' />
+                Donate on Ko-fi
+                <svg
+                  aria-hidden='true'
+                  viewBox='0 0 24 24'
+                  className='size-5'
+                  fill='none'
+                  stroke='currentColor'
+                  strokeWidth='2'
+                  strokeLinecap='round'
+                  strokeLinejoin='round'
+                >
+                  <path d='M7 17L17 7' />
+                  <path d='M9 7h8v8' />
+                </svg>
               </ActionButton>
               <button
                 type='button'
                 onClick={handleClose}
-                className='inline-flex items-center justify-center rounded-2xl px-5 py-4 text-lg font-semibold text-(--main-color) transition-colors hover:cursor-pointer hover:bg-(--border-color)'
+                className='inline-flex items-center justify-center rounded-2xl px-5 py-4 text-lg font-medium text-(--secondary-color) transition-colors hover:cursor-pointer hover:bg-(--background-color)'
               >
                 Maybe later
               </button>
