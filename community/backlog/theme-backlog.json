@@ -775,7 +775,9 @@
     "mainColor": "oklch(65.0% 0.025 270.0 / 1)",
     "secondaryColor": "oklch(72.0% 0.165 25.0 / 1)",
     "issued": false,
-    "completed": false
+    "completed": true,
+    "completedBy": "baleashvar",
+    "completedPR": 9642
   },
   {
     "id": "cherry-cola",
