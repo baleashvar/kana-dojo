@@ -156,7 +156,7 @@
     "Aoi Matsuri"
   ],
   "correctIndex": 0
-},
+  },
   {
   "question": "Which Japanese festival features people throwing beans to drive away evil spirits?",
   "difficulty": "medium",
@@ -167,5 +167,16 @@
     "Shichi-Go-San"
   ],
   "correctIndex": 0
-}
+  },
+  {
+  "question": "Which dish is a Japanese hot pot with thinly sliced beef?",
+  "difficulty": "medium",
+  "answers": [
+    "Sukiyaki",
+    "Okonomiyaki",
+    "Takoyaki",
+    "Chankonabe"
+  ],
+  "correctIndex": 0
+  }
 ]
